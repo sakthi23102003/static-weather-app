@@ -1,0 +1,98 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40rem;
+   
+
+  
+}
+.background {
+   
+    background-image: url(images/map.jpg);
+    
+ 
+}
+.weather_container{
+    color:rgb(240, 233, 147);
+    margin-bottom: 10rem;
+}
+
+.temp{
+    font-size: 5rem;
+    margin-left:5rem;
+    
+}
+
+.time_location{
+    font-size: 2rem;
+    margin-left:5rem;
+    
+}
+
+.condition{
+    margin: 0.5rem;
+    margin-left:5.3rem;
+    
+
+}
+
+nav{
+    height:300px;
+
+}
+.search_area{
+    padding: 1rem 0;
+    outline:none;
+    border:none;
+    color:rgb(241, 230, 140);
+    background-color: transparent;
+    font-size:1.1rem ;
+    border-bottom:2px solid;
+}
+
+
+.haveagood{
+    position:relative;
+    font-size:5rem;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    letter-height:50px;
+    cursor:pointer;
+    
+    
+   
+}
+.text{
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(10, 10, 10, 0.756);
+}
+.hover-text{
+    position: absolute;
+    inset:0;
+    width:0%;
+    color:rgb(226, 224, 234);
+    overflow:hidden;
+    border-right:6px solid var(--clr);
+    transition:0.5s ease-in-out
+}
+
+div:hover .hover-text{
+     width:100%;
+     filter: drop-shadow(0 0 50px var(--clr))
+}
+
+nav form button{
+    padding: 1rem;
+    background-color:rgb(240, 231, 144);
+    font-size:1.1rem;
+    margin: bottom 1.1em;rem;
+    cursor:pointer;
+
+}
